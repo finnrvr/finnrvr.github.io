@@ -35,12 +35,11 @@ html, body {
     display: inline-block;
     position: absolute;
     bottom: 0;
-    animation: text 1.05s ease-in infinite;
-    text-shadow: 0 0 10px rgba(116, 241, 252, 0.5); /* Efek glow minimalis */
+    animation: text 1.05s ease-in infinite;  
 }
 .text-w { left: 0rem; animation: text-w 1.05s ease-in infinite; }
-.text-a { left: 5.4rem; animation-delay: 0.15s; }
-.text-v { left: 9.6rem; animation-delay: 0.23s; }
+.text-a { left: 4.4rem; animation-delay: 0.15s; }
+.text-v { left: 7.6rem; animation-delay: 0.23s; }
 .text-e { left: 13rem; animation-delay: 0.31s; }
 .coast {
     position: absolute;
@@ -114,7 +113,6 @@ html, body {
     font-size: 2.2rem;
     margin-bottom: 4rem;
     padding: 0 1rem;
-    text-shadow: 0 0 10px rgba(116, 241, 252, 0.4); 
 }
 .links {
     display: flex;
@@ -133,7 +131,6 @@ html, body {
     border-radius: 8px; 
     transition: background-color 0.3s, border-color 0.3s, color 0.3s;
     border: 1px solid rgba(116, 241, 252, 0.5); 
-    box-shadow: 0 0 5px rgba(116, 241, 252, 0.1);
 }
 .link-btn:hover {
     background-color: rgba(116, 241, 252, 0.15); 
